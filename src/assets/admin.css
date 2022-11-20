@@ -1,0 +1,12 @@
+@config "../../tailwind.admin.config.js";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn {
+    border:14px solid white;
+    background-color: green;
+  }
+}
